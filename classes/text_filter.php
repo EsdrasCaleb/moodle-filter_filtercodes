@@ -1062,7 +1062,8 @@ class text_filter extends \filtercodes_base_text_filter {
                             PHP_EOL;
                     $menu .= '-Tracker|https://moodle.atlassian.net/jira/|Moodle.org ({getstring}english{/getstring})' . PHP_EOL;
                     $menu .= '-AMOS|https://lang.moodle.org/|Moodle.org ({getstring}english{/getstring})' . PHP_EOL;
-                    $menu .= '-WCAG 2.2|https://www.w3.org/WAI/WCAG22/quickref/?versions=2.2&currentsidebar=%23col_customize&levels=aaa|W3C ({getstring}english{/getstring})' . PHP_EOL;
+                    $menu .= '-WCAG 2.2|https://www.w3.org/WAI/WCAG22/quickref/?versions=2.2&currentsidebar=%23col_customize'
+                        . '&levels=aaa|W3C ({getstring}english{/getstring})' . PHP_EOL;
                     $menu .= '-###' . PHP_EOL;
                     $menu .= '-DevTuts|https://www.youtube.com/watch?v=UY_pcs4HdDM|{getstring}english{/getstring}' . PHP_EOL;
                     $menu .= '-Moodle Development School|https://moodledev.moodle.school/|{getstring}english{/getstring}' . PHP_EOL;
